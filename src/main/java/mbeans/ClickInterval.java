@@ -3,7 +3,7 @@ package mbeans;
 public class ClickInterval implements ClickIntervalMBean {
     private long lastClickTime = 1;
     private double totalInterval = 1;
-    private int clickCount = 1;
+    private int clickCount = 0;
 
     public void registerClick() {
         long currentTime = System.currentTimeMillis();
